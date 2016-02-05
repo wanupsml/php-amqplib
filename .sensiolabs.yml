@@ -1,6 +1,9 @@
 global_exclude_dirs:
-    - tests
+    - benchkmark
     - demo
+    - doc
+    - spec
+    - tests
     
 rules:
     composer.apc_class_loader_should_be_enabled:
