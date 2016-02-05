@@ -1,15 +1,9 @@
-# Looking for New Maintainer #
-
-See issue: https://github.com/videlalvaro/php-amqplib/issues/356
-
 # php-amqplib #
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/be81825a-8c4e-4876-bc78-17f1dba6e722/mini.png)](https://insight.sensiolabs.com/projects/be81825a-8c4e-4876-bc78-17f1dba6e722)
 [![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
 
 This library is a _pure PHP_ implementation of the AMQP protocol. It's been tested against [RabbitMQ](http://www.rabbitmq.com/).
 
@@ -40,7 +34,7 @@ Extensions that modify existing methods like `alternate exchanges` are also supp
 ```javascript
 {
   "require": {
-      "videlalvaro/php-amqplib": "2.5.*"
+      "wanupsml/php-amqplib": "2.5.*"
   }
 }
 ```
@@ -286,17 +280,24 @@ Patches are very welcome!
 
 Author: Vadim Zaliva <lord@crocodile.org>
 
-[ico-version]: https://img.shields.io/packagist/v/videlalvaro/php-amqplib.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-LGPL-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/videlalvaro/php-amqplib/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/videlalvaro/php-amqplib.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/videlalvaro/php-amqplib.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/videlalvaro/php-amqplib.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/videlalvaro/php-amqplib
-[link-travis]: https://travis-ci.org/videlalvaro/php-amqplib
-[link-scrutinizer]: https://scrutinizer-ci.com/g/videlalvaro/php-amqplib/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/videlalvaro/php-amqplib
-[link-downloads]: https://packagist.org/packages/videlalvaro/php-amqplib
+[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Total Downloads][ico-downloads]][link-downloads]
+
+
+[ico-version]: https://img.shields.io/packagist/v/wanupsml/php-amqplib.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-LGPL-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/wanupsml/php-amqplib/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/wanupsml/php-amqplib.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/wanupsml/php-amqplib.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/wanupsml/php-amqplib.svg?style=flat-square
+[ico-insight]: https://insight.sensiolabs.com/projects/be81825a-8c4e-4876-bc78-17f1dba6e722/mini.png
+
+[link-packagist]: https://packagist.org/packages/wanupsml/php-amqplib
+[link-travis]: https://travis-ci.org/wanupsml/php-amqplib
+[link-scrutinizer]: https://scrutinizer-ci.com/g/wanupsml/php-amqplib/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/wanupsml/php-amqplib
+[link-downloads]: https://packagist.org/packages/wanupsml/php-amqplib
 [link-author]: https://github.com/videlalvaro
 [link-contributors]: ../../contributors
