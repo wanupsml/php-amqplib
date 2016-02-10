@@ -32,7 +32,7 @@ Extensions that modify existing methods like `alternate exchanges` are also supp
 ```javascript
 {
   "require": {
-      "wanupsml/php-amqplib": "2.5.*"
+      "wanupsml/php-amqplib": "~2.6"
   }
 }
 ```
