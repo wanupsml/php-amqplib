@@ -7,8 +7,6 @@
 
 This library is a _pure PHP_ implementation of the AMQP protocol. It's been tested against [RabbitMQ](http://www.rabbitmq.com/).
 
-**Requirements: PHP 5.3** due to the use of `namespaces`.
-
 The library was used for the PHP examples of [RabbitMQ in Action](http://manning.com/videla/) and the [official RabbitMQ tutorials](http://www.rabbitmq.com/tutorials/tutorial-one-php.html).
 
 ## Supported RabbitMQ Versions ##
@@ -37,19 +35,6 @@ Extensions that modify existing methods like `alternate exchanges` are also supp
       "wanupsml/php-amqplib": "2.5.*"
   }
 }
-```
-
-Then provided you have [composer](http://getcomposer.org) installed, you can run the following command:
-
-```bash
-$ composer.phar install
-```
-
-That will fetch the library and its dependencies inside your vendor folder. Then you can add the following to your
-.php files in order to use the library
-
-```php
-require_once __DIR__.'/vendor/autoload.php';
 ```
 
 Then you need to `use` the relevant classes, for example:
@@ -263,20 +248,14 @@ Below is the original README file content. Credits goes to the original authors.
 
 PHP library implementing Advanced Message Queuing Protocol (AMQP).
 
-The library is port of python code of py-amqplib
+The library is a fork of https://github.com/videlalvaro/php-amqplib
+that was a port of python code of py-amqplib
 http://barryp.org/software/py-amqplib/
-
+ 
 It have been tested with RabbitMQ server.
 
-Project home page: http://code.google.com/p/php-amqplib/
 
-For discussion, please join the group:
-
-http://groups.google.com/group/php-amqplib-devel
-
-For bug reports, please use bug tracking system at the project page.
-
-Patches are very welcome!
+Project home page: https://github.com/wanupsml/php-amqplib/ 
 
 Author: Vadim Zaliva <lord@crocodile.org>
 
